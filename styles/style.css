@@ -1,0 +1,63 @@
+/*------------------HEADER----------------*/
+
+body{
+    margin: 0;
+}
+
+#header{
+    height: 150px;
+    background-color: rgb(2, 2, 34);
+    /*background-image: url(/images/lune.png);*/
+}
+.lune{
+    height: 64px;
+}
+
+/*-----------------MAIN--------------------*/
+
+#main{
+    background-color: rgb(11, 11, 70);
+    display: block;
+}
+
+.avatar__container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.avatar{
+    background-image: url(../images/moi.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.cloud{
+    position: relative;
+    width: 250px;
+    height: 135px;
+    background-image: url(../images/cloud.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+}
+
+.nav__texte-L{
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    margin: 0;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 20px;
+    left: 0px;
+    top: 0px;
+    margin-left: 10%;
+    position: absolute;
+    z-index: 2;
+}
